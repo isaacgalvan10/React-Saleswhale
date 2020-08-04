@@ -4,14 +4,14 @@ import '../styles/navbar.css';
 class NavBar extends Component {
   render() {
     return (
-      <Fragment>
+      <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="navbar-brand">
             <a href="#">
               <img
                 src={require("../assets/logomark.png")}
-                width="30"
-                height="30"
+                width="25"
+                height="25"
                 alt="saleswhale logo"
                 loading="lazy"
               />
@@ -38,7 +38,7 @@ class NavBar extends Component {
             <button type="button" class="btn btn-primary">Get a Demo</button>
           </div>
         </nav>
-      </Fragment>
+      </div>
     );
   }
 }
