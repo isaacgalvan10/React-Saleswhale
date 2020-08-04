@@ -1,12 +1,23 @@
 import React, { Component, Fragment } from 'react';
+import '../styles/navbar.css';
 
 class NavBar extends Component {
   render() {
     return (
       <Fragment>
         <nav className="navbar navbar-expand-lg navbar-light">
-          <img src="../assets/logomark.png" alt="" />
-          <a className="navbar-brand" href="#">Saleswhale</a>
+          <div className="navbar-brand">
+            <a href="#">
+              <img
+                src={require("../assets/logomark.png")}
+                width="30"
+                height="30"
+                alt="saleswhale logo"
+                loading="lazy"
+              />
+            </a>
+            <a className="navbar-brand saleswhale" href="#">saleswhale</a>
+          </div>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -23,7 +34,8 @@ class NavBar extends Component {
                 <a className="nav-link" href="#">Company</a>
               </li>
             </ul>
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button className="btn btn-outline-primary" type="submit">Log In</button>
+            <button type="button" class="btn btn-primary">Get a Demo</button>
           </div>
         </nav>
       </Fragment>

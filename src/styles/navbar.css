@@ -1,4 +1,28 @@
 nav {
   max-width: 1020px;
 }
+
+nav .nav-item {
+  font-weight: 500;
+  margin: 0 20px 0 0;
+}
+
+nav .btn-outline-primary {
+  margin-right: 10px;
+}
+
+nav .navbar-brand.saleswhale {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+nav .btn {
+  border-radius: 20px;
+}
+
+@media all and (max-width: 991px) {
+  nav #navbarSupportedContent {
+    text-align: right;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

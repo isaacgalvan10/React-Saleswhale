@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
   max-width: 1440px;
-  margin: 0 auto;
+}
+
+@media all and (min-width: 992px) {
+  *{
+    margin: 0 auto;
+  }
 }
