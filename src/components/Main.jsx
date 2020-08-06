@@ -20,6 +20,32 @@ class Main extends Component {
             </div>
           </div>
         </section>
+
+        {/* Culture Section */}
+
+        <section id="culture-section">
+          <h1>Our Culture</h1>
+          <p className="sub-header">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
+          <div className="culture-container">
+            <div className="culture1">
+              <img src={require("../assets/you_glasses 4.png")} />
+              <h4>Building for the future</h4>
+              <span>We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users.</span>
+            </div>
+            <div className="culture2">
+              <img src={require("../assets/you_glasses 4.png")} />
+              <h4>Promoting trust & transparency</h4>
+              <span>We remain completely open, honest and transparent with everyone. This has allowed us to build strong relationships with each other.</span>
+            </div>
+            <div className="culture3">
+              <img src={require("../assets/you_glasses 4.png")} />
+              <h4>Achieving our very best</h4>
+              <span>We believe the success of the company lies within our employees and we constantly challenge each other to learn and level up.</span>
+            </div>
+          </div>
+          <p className="cta">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
+          <button type="button" class="btn btn-primary">Join the team</button>
+        </section>
       </div>
     );
   }

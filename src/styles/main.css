@@ -25,4 +25,54 @@
   font-size: 18px;
   line-height: 32px;
 }
+
+#culture-section {
+  margin: 150px 0 60px 0;
+}
+
+#culture-section h1 {
+  text-align: center;
+  color: #002240;
+  font-size: 58px;
+  font-weight: bold;
+}
+
+#culture-section .sub-header {
+  text-align: center;
+  font-size: 21px;
+  color: #537089;
+  margin: 30px 0 60px 0;
+}
+
+#culture-section .culture-container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 55px;
+}
+
+#culture-section .culture-container h4 {
+  margin: 20px 0 20px 0;
+  color: #002240;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#culture-section .cta {
+  font-size: 21px;
+  margin: 100px 0 60px 0;
+  text-align: center;
+  color: #002240;
+}
+
+#culture-section .btn {
+  border-radius: 15px;
+  position: relative;
+  left: 42%;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
