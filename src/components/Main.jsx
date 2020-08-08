@@ -46,6 +46,41 @@ class Main extends Component {
           <p className="cta">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
           <button type="button" class="btn btn-primary">Join the team</button>
         </section>
+
+        {/* Progress Section */}
+
+        <section id="progress-section">
+          <h1>Our Progress</h1>
+
+          <div className="progress-container">
+            <div className="fifteen">
+              <span className="year">2015</span>
+              <img src={require("../assets/Group 412.png")} />
+              <span className="info">Founded in Singapore by Gabriel Lim, Ethan Le, and Venus Wong</span>
+            </div>
+            <div className="sixteen">
+              <span className="year">2016</span>
+              <img src={require("../assets/Group 412.png")} />
+              <span className="info">Accepted into Y Combinator (S16) and moved to San Francisco</span>
+            </div>
+            <div className="seventeen">
+              <span className="year">2017</span>
+              <img src={require("../assets/Group 412.png")} />
+              <span className="info">Raised US$1.2M in seed funding and hired core engineers</span>
+            </div>
+            <div className="nineteen">
+              <span className="year">2019</span>
+              <img src={require("../assets/Group 412.png")} />
+              <span className="info">Raised US$5.3M in Series A and expanded team size</span>
+            </div>
+            <div className="twenty">
+              <span className="year">2020</span>
+              <img src={require("../assets/Group 412.png")} />
+              <span className="info">Opened US office in Washington, DC and hired US sales team</span>
+            </div>
+            <div className="blue-line"></div>
+          </div>
+        </section>
       </div>
     );
   }

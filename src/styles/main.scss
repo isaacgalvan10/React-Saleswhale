@@ -1,5 +1,6 @@
 $main-text-color: #002240;
 $sub-text-color: #537089;
+$saleswhale-blue: #0688FA;
 
 #hero-section {
 
@@ -77,4 +78,82 @@ $sub-text-color: #537089;
     font-weight: bold;
   }
 
+}
+
+#progress-section {
+
+  h1 {
+    text-align: center;
+    color: $main-text-color;
+    font-size: 58px;
+    font-weight: bold;
+    margin: 150px 0 65px 0;
+  }
+
+  .progress-container {
+    background: #EFF8FF;
+    border-radius: 20px;
+    width: 1205px;
+    height: 879px;
+    margin-bottom: 100px;
+
+    .blue-line {
+      position: relative;
+      width: 0px;
+      height: 879px;
+      left: 260px;
+      bottom: 400px;
+      border: 3px solid $saleswhale-blue;
+    }
+
+    .fifteen {
+      position: relative;
+      left: 120px;
+      top: 120px;
+    }
+
+    .sixteen {
+      position: relative;
+      left: 120px;
+      top: 185px;
+    }
+
+    .seventeen {
+      position: relative;
+      left: 120px;
+      top: 250px;
+    }
+
+    .nineteen {
+      position: relative;
+      left: 120px;
+      top: 315px;
+    }
+
+    .twenty {
+      position: relative;
+      left: 120px;
+      top: 380px;
+    }
+
+    .year {
+      font-weight: bold;
+      font-size: 26px;
+      color: $saleswhale-blue;
+    }
+
+    img {
+      position: relative;
+      left: 45px;
+      z-index: 1;
+    }
+
+    .info {
+      position: relative;
+      left: 80px;
+      font-weight: 600;
+      font-size: 26px;
+      color: $main-text-color;
+    }
+  }
 }

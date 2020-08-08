@@ -75,4 +75,79 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+#progress-section h1 {
+  text-align: center;
+  color: #002240;
+  font-size: 58px;
+  font-weight: bold;
+  margin: 150px 0 65px 0;
+}
+
+#progress-section .progress-container {
+  background: #EFF8FF;
+  border-radius: 20px;
+  width: 1205px;
+  height: 879px;
+  margin-bottom: 100px;
+}
+
+#progress-section .progress-container .blue-line {
+  position: relative;
+  width: 0px;
+  height: 879px;
+  left: 260px;
+  bottom: 400px;
+  border: 3px solid #0688FA;
+}
+
+#progress-section .progress-container .fifteen {
+  position: relative;
+  left: 120px;
+  top: 120px;
+}
+
+#progress-section .progress-container .sixteen {
+  position: relative;
+  left: 120px;
+  top: 185px;
+}
+
+#progress-section .progress-container .seventeen {
+  position: relative;
+  left: 120px;
+  top: 250px;
+}
+
+#progress-section .progress-container .nineteen {
+  position: relative;
+  left: 120px;
+  top: 315px;
+}
+
+#progress-section .progress-container .twenty {
+  position: relative;
+  left: 120px;
+  top: 380px;
+}
+
+#progress-section .progress-container .year {
+  font-weight: bold;
+  font-size: 26px;
+  color: #0688FA;
+}
+
+#progress-section .progress-container img {
+  position: relative;
+  left: 45px;
+  z-index: 1;
+}
+
+#progress-section .progress-container .info {
+  position: relative;
+  left: 80px;
+  font-weight: 600;
+  font-size: 26px;
+  color: #002240;
+}
 /*# sourceMappingURL=main.css.map */
