@@ -24,7 +24,7 @@ class Main extends Component {
         {/* Culture Section */}
 
         <section id="culture-section">
-          <h1>Our Culture</h1>
+          <h1 className="titles">Our Culture</h1>
           <p className="sub-header">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
           <div className="culture-container">
             <div className="culture1">
@@ -50,7 +50,7 @@ class Main extends Component {
         {/* Progress Section */}
 
         <section id="progress-section">
-          <h1>Our Progress</h1>
+          <h1 className="titles">Our Progress</h1>
 
           <div className="progress-container">
             <div className="fifteen">
@@ -79,6 +79,44 @@ class Main extends Component {
               <span className="info">Opened US office in Washington, DC and hired US sales team</span>
             </div>
             <div className="blue-line"></div>
+          </div>
+        </section>
+
+        {/* Offices Section */}
+
+        <section id="office-section">
+          <h1 className="titles">Our Offices</h1>
+          <div className="office-container">
+            <div className="office-1">
+              <img src={require("../assets/sinon 7.png")} />
+              <h2>Singapore</h2>
+              <p>155B Telok Ayer Street<br />Singapore, 068611</p>
+            </div>
+            <div className="office-2">
+              <img src={require("../assets/sinon 7.png")} />
+              <h2>Washington DC</h2>
+              <p>1701 Rhode Island Ave NW<br />Washington, DC 20036</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Investors Section */}
+
+        <section id="investor-section">
+          <h1 className="titles">Our Investors</h1>
+          <div className="investor-container">
+            <div className="card card-1">
+              <img src={require("../assets/YC logo 2.png")} />
+            </div>
+            <div className="card card-2">
+              <img src={require("../assets/MHV-logo 2.svg")} />
+            </div>
+            <div className="card card-3">
+              <img src={require("../assets/STRIVE_logo 2.svg")} />
+            </div>
+            <div className="card card-4">
+              <img src={require("../assets/wavemaker-350 2.svg")} />
+            </div>
           </div>
         </section>
       </div>

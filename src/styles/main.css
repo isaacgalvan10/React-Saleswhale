@@ -26,17 +26,6 @@
   line-height: 32px;
 }
 
-#culture-section {
-  margin: 150px 0 60px 0;
-}
-
-#culture-section h1 {
-  text-align: center;
-  color: #002240;
-  font-size: 58px;
-  font-weight: bold;
-}
-
 #culture-section .sub-header {
   text-align: center;
   font-size: 21px;
@@ -71,23 +60,16 @@
   border-radius: 15px;
   position: relative;
   left: 42%;
-  padding: 20px 30px;
+  padding: 15px 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
-#progress-section h1 {
-  text-align: center;
-  color: #002240;
-  font-size: 58px;
-  font-weight: bold;
-  margin: 150px 0 65px 0;
-}
-
 #progress-section .progress-container {
+  position: relative;
   background: #EFF8FF;
   border-radius: 20px;
-  width: 1205px;
+  width: 100%;
   height: 879px;
   margin-bottom: 100px;
 }
@@ -95,39 +77,39 @@
 #progress-section .progress-container .blue-line {
   position: relative;
   width: 0px;
-  height: 879px;
-  left: 260px;
+  height: 100%;
+  left: 190px;
   bottom: 400px;
-  border: 3px solid #0688FA;
+  border: 2px solid #0688FA;
 }
 
 #progress-section .progress-container .fifteen {
   position: relative;
-  left: 120px;
+  left: 50px;
   top: 120px;
 }
 
 #progress-section .progress-container .sixteen {
   position: relative;
-  left: 120px;
+  left: 50px;
   top: 185px;
 }
 
 #progress-section .progress-container .seventeen {
   position: relative;
-  left: 120px;
+  left: 50px;
   top: 250px;
 }
 
 #progress-section .progress-container .nineteen {
   position: relative;
-  left: 120px;
+  left: 50px;
   top: 315px;
 }
 
 #progress-section .progress-container .twenty {
   position: relative;
-  left: 120px;
+  left: 50px;
   top: 380px;
 }
 
@@ -149,5 +131,125 @@
   font-weight: 600;
   font-size: 26px;
   color: #002240;
+}
+
+#office-section .office-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#office-section .office-1 {
+  width: 528px;
+  height: 283px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 80px;
+}
+
+#office-section .office-1 img {
+  margin: 35px 0 25px 0;
+}
+
+#office-section .office-1 h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #002240;
+}
+
+#office-section .office-1 p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #002240;
+}
+
+#office-section .office-2 {
+  width: 528px;
+  height: 283px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  text-align: center;
+}
+
+#office-section .office-2 img {
+  margin: 35px 0 25px 0;
+}
+
+#office-section .office-2 h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #002240;
+}
+
+#office-section .office-2 p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #002240;
+}
+
+#investor-section {
+  margin-bottom: 150px;
+}
+
+#investor-section .investor-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 80px;
+}
+
+#investor-section .card {
+  width: 528px;
+  height: 283px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  text-align: center;
+}
+
+#investor-section .card-1 img {
+  position: relative;
+  width: 358px;
+  height: 101px;
+  left: 15%;
+  top: 30%;
+}
+
+#investor-section .card-2 img {
+  position: relative;
+  top: 20%;
+}
+
+#investor-section .card-3 img {
+  position: relative;
+  top: 35%;
+}
+
+#investor-section .card-4 img {
+  position: relative;
+  top: 20%;
+}
+
+.titles {
+  text-align: center;
+  color: #002240;
+  font-size: 58px;
+  font-weight: bold;
+  margin: 150px 0 65px 0;
 }
 /*# sourceMappingURL=main.css.map */
