@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import '../styles/navbar.css';
 
 class NavBar extends Component {
@@ -35,7 +35,7 @@ class NavBar extends Component {
               </li>
             </ul>
             <button className="btn btn-outline-primary" type="submit">Log In</button>
-            <button type="button" class="btn btn-primary">Get a Demo</button>
+            <button type="button" className="btn btn-primary">Get a Demo</button>
           </div>
         </nav>
       </div>
