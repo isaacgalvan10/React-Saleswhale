@@ -3,6 +3,7 @@ $sub-text-color: #537089;
 $saleswhale-blue: #0688FA;
 
 #hero-section {
+  overflow-x: hidden;
 
   img {
     margin-top: 60px;
@@ -32,7 +33,7 @@ $saleswhale-blue: #0688FA;
 }
 
 #culture-section {
-  
+  overflow-x: hidden;
 
   .sub-header {
     text-align: center;
@@ -74,6 +75,7 @@ $saleswhale-blue: #0688FA;
 }
 
 #progress-section {
+  overflow-x: hidden;
 
   .progress-container {
     position: relative;
@@ -95,31 +97,31 @@ $saleswhale-blue: #0688FA;
     .fifteen {
       position: relative;
       left: 50px;
-      top: 120px;
+      top: 110px;
     }
 
     .sixteen {
       position: relative;
       left: 50px;
-      top: 185px;
+      top: 175px;
     }
 
     .seventeen {
       position: relative;
       left: 50px;
-      top: 250px;
+      top: 240px;
     }
 
     .nineteen {
       position: relative;
       left: 50px;
-      top: 315px;
+      top: 305px;
     }
 
     .twenty {
       position: relative;
       left: 50px;
-      top: 380px;
+      top: 370px;
     }
 
     .year {
@@ -136,6 +138,7 @@ $saleswhale-blue: #0688FA;
 
     .info {
       position: relative;
+      width: 70%;
       left: 80px;
       font-weight: 600;
       font-size: 26px;
@@ -145,6 +148,7 @@ $saleswhale-blue: #0688FA;
 }
 
 #office-section {
+  overflow-x: hidden;
 
   .office-container {
     display: flex;
@@ -213,6 +217,7 @@ $saleswhale-blue: #0688FA;
   top: 3250px;
   z-index: -1;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .bg-img-2 {
@@ -222,15 +227,18 @@ $saleswhale-blue: #0688FA;
   z-index: -1;
   top: 3650px;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 #investor-section {
   margin-bottom: 150px;
-  .investor-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 80px;
+  overflow-x: hidden;
+
+  .investor-row-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 65px;
+    width: 100%;
   }
 
   .card {
@@ -244,6 +252,8 @@ $saleswhale-blue: #0688FA;
   }
 
   .card-1 {
+    margin-right: 80px;
+
     img {
       position: relative;
       width: 358px;
@@ -260,7 +270,14 @@ $saleswhale-blue: #0688FA;
     }
   }
 
+  .investor-row-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .card-3 {
+    margin-right: 80px;
+
     img {
       position: relative;
       top: 35%;
@@ -285,6 +302,8 @@ $saleswhale-blue: #0688FA;
 
 #future-section {
   margin-bottom: 150px;
+  overflow-x: hidden;
+
   .future-container {
     position: relative;
     background: #329DFA;
@@ -315,5 +334,40 @@ $saleswhale-blue: #0688FA;
     .btn-light {
       margin-right: 20px;
     }
+  }
+}
+
+
+@media all and (max-width: 1199px) {
+  #progress-section {
+    .progress-container {
+      .blue-line {
+        bottom: 491px;
+      }
+
+      .year {
+        position: relative;
+        bottom: 50px;
+      }
+
+      img {
+        bottom: 50px;
+      }
+
+      .info {
+        display: inline-block;
+        bottom: 25px;
+      }
+    }
+  }
+
+  .bg-img-1 {
+    width: 110%;
+    overflow-x: hidden;
+  }
+  
+  .bg-img-2 {
+    width: 110%;
+    overflow-x: hidden;
   }
 }

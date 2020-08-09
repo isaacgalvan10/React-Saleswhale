@@ -105,13 +105,15 @@ class Main extends Component {
 
           <section id="investor-section">
             <h1 className="titles">Our Investors</h1>
-            <div className="investor-container">
+            <div className="investor-row-1">
               <div className="card card-1">
                 <img src={require("../assets/YC logo 2.png")} />
               </div>
               <div className="card card-2">
                 <img src={require("../assets/MHV-logo 2.svg")} />
               </div>
+            </div>
+            <div className="investor-row-2">
               <div className="card card-3">
                 <img src={require("../assets/STRIVE_logo 2.svg")} />
               </div>

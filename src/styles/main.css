@@ -1,3 +1,7 @@
+#hero-section {
+  overflow-x: hidden;
+}
+
 #hero-section img {
   margin-top: 60px;
   width: 100%;
@@ -24,6 +28,10 @@
 #hero-section .grid-container .paragraph {
   font-size: 18px;
   line-height: 32px;
+}
+
+#culture-section {
+  overflow-x: hidden;
 }
 
 #culture-section .sub-header {
@@ -65,6 +73,10 @@
   font-weight: bold;
 }
 
+#progress-section {
+  overflow-x: hidden;
+}
+
 #progress-section .progress-container {
   position: relative;
   background: #EFF8FF;
@@ -86,31 +98,31 @@
 #progress-section .progress-container .fifteen {
   position: relative;
   left: 50px;
-  top: 120px;
+  top: 110px;
 }
 
 #progress-section .progress-container .sixteen {
   position: relative;
   left: 50px;
-  top: 185px;
+  top: 175px;
 }
 
 #progress-section .progress-container .seventeen {
   position: relative;
   left: 50px;
-  top: 250px;
+  top: 240px;
 }
 
 #progress-section .progress-container .nineteen {
   position: relative;
   left: 50px;
-  top: 315px;
+  top: 305px;
 }
 
 #progress-section .progress-container .twenty {
   position: relative;
   left: 50px;
-  top: 380px;
+  top: 370px;
 }
 
 #progress-section .progress-container .year {
@@ -127,10 +139,15 @@
 
 #progress-section .progress-container .info {
   position: relative;
+  width: 70%;
   left: 80px;
   font-weight: 600;
   font-size: 26px;
   color: #002240;
+}
+
+#office-section {
+  overflow-x: hidden;
 }
 
 #office-section .office-container {
@@ -204,6 +221,7 @@
   top: 3250px;
   z-index: -1;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .bg-img-2 {
@@ -213,20 +231,23 @@
   z-index: -1;
   top: 3650px;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 #investor-section {
   margin-bottom: 150px;
+  overflow-x: hidden;
 }
 
-#investor-section .investor-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  gap: 80px;
+#investor-section .investor-row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 65px;
+  width: 100%;
 }
 
 #investor-section .card {
@@ -240,6 +261,10 @@
   text-align: center;
 }
 
+#investor-section .card-1 {
+  margin-right: 80px;
+}
+
 #investor-section .card-1 img {
   position: relative;
   width: 358px;
@@ -251,6 +276,19 @@
 #investor-section .card-2 img {
   position: relative;
   top: 20%;
+}
+
+#investor-section .investor-row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#investor-section .card-3 {
+  margin-right: 80px;
 }
 
 #investor-section .card-3 img {
@@ -273,6 +311,7 @@
 
 #future-section {
   margin-bottom: 150px;
+  overflow-x: hidden;
 }
 
 #future-section .future-container {
@@ -305,5 +344,30 @@
 
 #future-section .future-container .btn-light {
   margin-right: 20px;
+}
+
+@media all and (max-width: 1199px) {
+  #progress-section .progress-container .blue-line {
+    bottom: 491px;
+  }
+  #progress-section .progress-container .year {
+    position: relative;
+    bottom: 50px;
+  }
+  #progress-section .progress-container img {
+    bottom: 50px;
+  }
+  #progress-section .progress-container .info {
+    display: inline-block;
+    bottom: 25px;
+  }
+  .bg-img-1 {
+    width: 110%;
+    overflow-x: hidden;
+  }
+  .bg-img-2 {
+    width: 110%;
+    overflow-x: hidden;
+  }
 }
 /*# sourceMappingURL=main.css.map */

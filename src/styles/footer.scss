@@ -1,32 +1,35 @@
 $main-text-color: #002240;
 $sub-text-color: #537089;
 
-.link-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  position: relative;
-  left: 280px;
-  width: 950px;
-  margin-bottom: 65px;
+.footer-container-1 {
   overflow-x: hidden;
 
-  .subtitle {
-    font-size: 18px;
-    font-weight: bold;
-    color: $main-text-color;
-  }
-  ul {
-    list-style-type: none;
-    line-height: 42px;
-    li {
+  .link-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    left: 280px;
+    width: 80%;
+    margin-bottom: 65px;
+
+    .subtitle {
+      font-size: 18px;
+      font-weight: bold;
       color: $main-text-color;
     }
-  }
-
-  .link-column-4 {
     ul {
+      list-style-type: none;
+      line-height: 42px;
       li {
-        line-height: 35px;
+        color: $main-text-color;
+      }
+    }
+
+    .link-column-4 {
+      ul {
+        li {
+          line-height: 35px;
+        }
       }
     }
   }
@@ -34,7 +37,7 @@ $sub-text-color: #537089;
 
 .footer-container-2 {
   width: 100%;
-  height: 395px;
+  height: 350px;
   background: #F4F4F4;
   overflow: hidden;
 
@@ -61,7 +64,7 @@ $sub-text-color: #537089;
 
   .socialmedia {
     position: relative;
-    left: 1050px;
+    left: 90%;
     top: 40px;
 
     .facebook {
@@ -76,6 +79,27 @@ $sub-text-color: #537089;
   .bg-img {
     position: relative;
     width: 100%;
-    top: 150px;
+    height: 48%;
+    top: 120px;
+    overflow: hidden;
   }
+}
+
+@media all and (max-width: 1199px) {
+
+  .footer-container-1 {
+    .link-container {
+      position: relative;
+      width: 80%;
+      left: 20%;
+    }
+  }
+
+  .footer-container-2 {
+    .socialmedia {
+      position: relative;
+      left: 75%;
+    }
+  }
+
 }
