@@ -4,7 +4,7 @@ import '../styles/navbar.css';
 class NavBar extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container-lg">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="navbar-brand">
             <a href="#">

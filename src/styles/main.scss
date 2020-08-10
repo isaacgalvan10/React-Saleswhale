@@ -12,7 +12,7 @@ $saleswhale-blue: #0688FA;
     border-radius: 20px;
   }
 
-  .grid-container {
+  .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 60px;
@@ -75,7 +75,7 @@ $saleswhale-blue: #0688FA;
 }
 
 #progress-section {
-  overflow-x: hidden;
+  overflow: hidden;
 
   .progress-container {
     position: relative;
@@ -214,7 +214,7 @@ $saleswhale-blue: #0688FA;
   position: absolute;
   width: 100%;
   height: 60%;
-  top: 3250px;
+  top: 3350px;
   z-index: -1;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -225,7 +225,7 @@ $saleswhale-blue: #0688FA;
   width: 100%;
   height: 65%;
   z-index: -1;
-  top: 3650px;
+  top: 3700px;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -301,7 +301,7 @@ $saleswhale-blue: #0688FA;
 }
 
 #future-section {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   overflow-x: hidden;
 
   .future-container {
@@ -362,12 +362,440 @@ $saleswhale-blue: #0688FA;
   }
 
   .bg-img-1 {
-    width: 110%;
+    width: 100%;
+    top: 3480px;
     overflow-x: hidden;
   }
   
   .bg-img-2 {
-    width: 110%;
+    width: 100%;
+    top: 3790px;
     overflow-x: hidden;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #progress-section {
+    overflow: hidden;
+    .progress-container {
+      position: absolute;
+      padding-right: 50px;
+      left: 0;
+      width: 100%;
+      .blue-line {
+        bottom: 514px;
+      }
+    }
+  }
+  #office-section {
+    margin-top: 900px;
+  }
+  
+  #investor-section {
+    .card-1 {
+      img {
+        width: 75%;
+      }
+    }
+  }
+
+  .bg-img-1 {
+    top: 3400px;
+  }
+  
+  .bg-img-2 {
+    top: 3720px;
+  }
+}
+
+
+@media all and (max-width: 767px) {
+  #hero-section {
+    .hero-container {
+      gap: 50px;
+      h1 {
+        font-size: 46px;
+      }
+    }
+  }
+
+  #progress-section {
+    .progress-container {
+      padding-right: 115px;
+      .blue-line {
+        bottom: 440px;
+      }
+      .info {
+        font-size: 20px;
+      }
+    }
+  }
+
+  #office-section {
+    .office-1 {
+      margin-right: 50px;
+    }
+  }
+
+  #investor-section {
+    .card-1 {
+      margin-right: 50px;
+    }
+    .card-3 {
+      margin-right: 50px;
+    }
+  }
+
+  .bg-img-1 {
+    top: 3600px;
+  }
+  
+  .bg-img-2 {
+    top: 4000px;
+  }
+}
+
+@media all and (max-width: 592px) {
+  #hero-section {
+    img {
+      position: relative;
+      width: 100%;
+      height: 200px;
+    }
+
+    .hero-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 200px 1fr;
+      gap: 20px;
+    }
+  }
+
+  #progress-section {
+    .progress-container {
+
+      .blue-line {
+        position: absolute;
+        left: 134px;
+        bottom: 0;
+      }
+
+      .year {
+        font-size: 20px;
+      }
+
+      .fifteen {
+        left: 25px;
+        img {
+          bottom: 25px;
+        }
+      }
+  
+      .sixteen {
+        left: 25px;
+        top: 180px;
+
+        img {
+          bottom: 25px;
+        }
+      }
+  
+      .seventeen {
+        left: 25px;
+        top: 250px;
+
+        img {
+          bottom: 25px;
+        }
+      }
+  
+      .nineteen {
+        left: 25px;
+        top: 335px;
+
+        img {
+          bottom: 25px;
+        }
+        
+        .info {
+          bottom: 35px;
+        }
+      }
+  
+      .twenty {
+        left: 25px;
+        top: 400px;
+
+        img {
+          bottom: 25px;
+        }
+      }
+
+      img {
+        position: absolute;
+        left: 70px;
+      }
+
+      .info {
+        left: 135px;
+        bottom: 25px;
+      }
+  
+    }
+  }
+
+  #culture-section {
+    .culture-container {
+      gap: 20px;
+    }
+    .btn {
+      left: 34%;
+    }
+  }
+
+  #office-section {
+    overflow: hidden;
+    padding-bottom: 50px;
+
+    .office-container {
+
+      .office-1 {
+        margin-right: 20px;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  #investor-section {
+    .card-1 {
+      margin-right: 20px;
+
+      img {
+        left: 5%;
+        width: 90%;
+      }
+    }
+    .card-3 {
+      margin-right: 20px;
+    }
+  }
+
+  #future-section {
+    .future-container {
+      .btn-light {
+        position: relative;
+        left: 2%;
+      }
+
+      .btn-outline-light {
+        position: relative;
+        margin-top: 20px;
+      }
+    }
+  }
+  .bg-img-1 {
+    top: 3700px;
+  }
+  
+  .bg-img-2 {
+    top: 4100px;
+  }
+}
+
+@media all and (max-width: 419px) {
+  #hero-section {
+    img {
+      position: absolute;
+      height: 230px;
+      width: 100%;
+      left: 0;
+    }
+
+    .hero-container {
+      margin-top: 320px;
+      gap: 50px;
+
+      h1 {
+        font-size: 42px;
+      }
+    }
+  }
+
+  .titles {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #culture-section {
+    .culture-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .sub-header {
+      font-size: 16px;
+    }
+    .cta {
+      font-size: 16px;
+    }
+
+    .btn {
+      left: 27%;
+    }
+  }
+
+  #progress-section {
+    .progress-container {
+      .blue-line {
+        left: 100px;
+      }
+
+      .year {
+        font-size: 16px;
+      }
+
+      .info {
+        font-size: 16px;
+      }
+
+      .fifteen {
+        top: 80px;
+      }
+
+      .sixteen {
+        top: 150px;
+      }
+
+      .seventeen {
+        top: 250px;
+      }
+
+      .nineteen {
+        top: 380px;
+      }
+
+      .twenty {
+        top: 450px;
+      }
+
+      img {
+        height: 55px;
+        width: 55px;
+        left: 50px;
+      }
+
+      .info {
+        left: 90px;
+        bottom: 10px;
+      }
+    }
+  }
+
+  #office-section {
+    .office-container {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr;
+      gap: 40px;
+
+      .office-1 {
+        width: 100%;
+      }
+
+      .office-2 {
+        width: 100%;
+      }
+    }
+  }
+
+  #investor-section {
+    .card {
+      width: 100%;
+    }
+    .investor-row-1 {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .investor-row-2 {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr;
+      gap: 40px;
+    }
+  }
+
+  #future-section {
+    .future-container {
+      h1 {
+        top: 90px;
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 335px) {
+  #hero-section {
+    .hero-container {
+      gap: 100px;
+    }
+  }
+
+  #culture-section {
+    .btn {
+      left: 20%;
+    }
+  }
+
+  #progress-section {
+    .progress-container {
+      .fifteen {
+        top: 50px;
+      }
+
+      .sixteen {
+        top: 100px;
+      }
+
+      .seventeen {
+        top: 150px;
+      }
+
+      .nineteen {
+        top: 230px;
+        .info {
+          bottom: 0;
+        }
+      }
+
+      .twenty {
+        top: 300px;
+      }
+
+      .info {
+        bottom: 0;
+      }
+    }
+  }
+
+  .bg-img-1 {
+    top: 4600px;
+  }
+
+  .bg-img-2 {
+    top: 5100px;
   }
 }

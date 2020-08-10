@@ -36,3 +36,9 @@ nav {
     }
   }
 }
+
+@media all and (max-width: 320px) {
+  nav {
+    margin-left: 0;
+  }
+}

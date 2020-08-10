@@ -93,4 +93,111 @@
     left: 75%;
   }
 }
+
+@media all and (max-width: 991px) {
+  .footer-container-1 .link-container {
+    margin-top: 50px;
+    width: 100%;
+    left: 0;
+  }
+  .footer-container-2 .bg-img {
+    width: 130%;
+    right: 20%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer-container-1 .link-container {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .footer-container-2 .bg-img {
+    width: 200%;
+    height: 45%;
+    right: 65%;
+    top: 140px;
+    overflow: hidden;
+  }
+}
+
+@media all and (max-width: 592px) {
+  .footer-container-1 .link-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  .footer-container-2 {
+    height: 450px;
+  }
+  .footer-container-2 .privacy {
+    top: 130px;
+    left: 47%;
+  }
+  .footer-container-2 .terms {
+    top: 190px;
+    left: 35%;
+  }
+  .footer-container-2 .copyright {
+    top: 250px;
+    right: 5%;
+  }
+  .footer-container-2 .socialmedia {
+    left: 35%;
+    top: 20px;
+  }
+  .footer-container-2 .bg-img {
+    width: 200%;
+    right: 63%;
+    height: 30%;
+    top: 250px;
+  }
+}
+
+@media all and (max-width: 419px) {
+  .footer-container-2 .socialmedia {
+    left: 30%;
+  }
+  .footer-container-2 .privacy {
+    left: 44%;
+  }
+  .footer-container-2 .terms {
+    left: 30%;
+  }
+  .footer-container-2 .copyright {
+    left: 50px;
+    display: block;
+  }
+}
+
+@media all and (max-width: 335px) {
+  .footer-container-1 .link-container {
+    position: relative;
+    width: 100%;
+    gap: 10px;
+  }
+  .footer-container-1 .link-container ul {
+    padding: 0;
+  }
+  .footer-container-2 .socialmedia {
+    left: 25%;
+    top: 0;
+  }
+  .footer-container-2 .privacy {
+    left: 43%;
+    top: 140px;
+  }
+  .footer-container-2 .terms {
+    left: 25%;
+  }
+  .footer-container-2 .copyright {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+  .footer-container-2 .bg-img {
+    height: 20%;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

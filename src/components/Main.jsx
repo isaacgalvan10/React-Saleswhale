@@ -6,10 +6,10 @@ class Main extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container">
+        <div className="container-lg">
           <section id="hero-section">
             <img src={require("../assets/hero-img.png")} />
-            <div className="grid-container">
+            <div className="hero-container">
               <h1>
                 A future where AI and humans work hand in hand
             </h1>

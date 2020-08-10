@@ -27,4 +27,10 @@ nav .btn {
     text-align: right;
   }
 }
+
+@media all and (max-width: 320px) {
+  nav {
+    margin-left: 0;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

@@ -101,5 +101,141 @@ $sub-text-color: #537089;
       left: 75%;
     }
   }
+}
 
+@media all and (max-width: 991px) {
+  .footer-container-1 {
+    .link-container {
+      margin-top: 50px;
+      width: 100%;
+      left: 0
+    }
+  }
+
+  .footer-container-2 {
+    .bg-img {
+      width: 130%;
+      right: 20%;
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer-container-1 {
+    .link-container {
+      position: relative;
+      margin-top: 50px;
+      width: 100%;
+    }
+  }
+
+  .footer-container-2 {
+    .bg-img {
+      width: 200%;
+      height: 45%;
+      right: 65%;
+      top: 140px;
+      overflow: hidden;
+    }
+  }
+}
+
+@media all and (max-width: 592px) {
+  .footer-container-1 {
+    .link-container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+
+  .footer-container-2 {
+    height: 450px;
+
+    .privacy {
+      top: 130px;
+      left: 47%;
+    }
+
+    .terms {
+      top: 190px;
+      left: 35%;
+    }
+
+    .copyright {
+      top: 250px;
+      right: 5%;
+    }
+
+    .socialmedia {
+      left: 35%;
+      top: 20px;
+    }
+
+    .bg-img {
+      width: 200%;
+      right: 63%;
+      height: 30%;
+      top: 250px;
+    }
+  }
+}
+
+@media all and (max-width: 419px) {
+  .footer-container-2 {
+    .socialmedia {
+      left: 30%;
+    }
+
+    .privacy {
+      left: 44%
+    }
+
+    .terms {
+      left: 30%;
+    }
+
+    .copyright {
+      left: 50px;
+      display: block;
+    }
+  }
+}
+
+@media all and (max-width: 335px) {
+  .footer-container-1 {
+    .link-container {
+      position: relative;
+      width: 100%;
+      gap: 10px;
+      
+      ul {
+        padding: 0;
+      }
+    }
+  }
+
+  .footer-container-2 {
+    .socialmedia {
+      left: 25%;
+      top: 0;
+    }
+
+    .privacy {
+      left: 43%;
+      top: 140px;
+    }
+
+    .terms {
+      left: 25%;
+    }
+
+    .copyright {
+      position: relative;
+      left: 0;
+      text-align: center;
+    }
+    .bg-img {
+      height: 20%;
+    }
+  }
 }

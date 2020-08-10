@@ -9,7 +9,7 @@
   border-radius: 20px;
 }
 
-#hero-section .grid-container {
+#hero-section .hero-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -19,13 +19,13 @@
   color: #002240;
 }
 
-#hero-section .grid-container h1 {
+#hero-section .hero-container h1 {
   font-size: 58px;
   font-weight: bold;
   line-height: 62px;
 }
 
-#hero-section .grid-container .paragraph {
+#hero-section .hero-container .paragraph {
   font-size: 18px;
   line-height: 32px;
 }
@@ -74,7 +74,7 @@
 }
 
 #progress-section {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #progress-section .progress-container {
@@ -218,7 +218,7 @@
   position: absolute;
   width: 100%;
   height: 60%;
-  top: 3250px;
+  top: 3350px;
   z-index: -1;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -229,7 +229,7 @@
   width: 100%;
   height: 65%;
   z-index: -1;
-  top: 3650px;
+  top: 3700px;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -310,7 +310,7 @@
 }
 
 #future-section {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   overflow-x: hidden;
 }
 
@@ -362,12 +362,334 @@
     bottom: 25px;
   }
   .bg-img-1 {
-    width: 110%;
+    width: 100%;
+    top: 3480px;
     overflow-x: hidden;
   }
   .bg-img-2 {
-    width: 110%;
+    width: 100%;
+    top: 3790px;
     overflow-x: hidden;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #progress-section {
+    overflow: hidden;
+  }
+  #progress-section .progress-container {
+    position: absolute;
+    padding-right: 50px;
+    left: 0;
+    width: 100%;
+  }
+  #progress-section .progress-container .blue-line {
+    bottom: 514px;
+  }
+  #office-section {
+    margin-top: 900px;
+  }
+  #investor-section .card-1 img {
+    width: 75%;
+  }
+  .bg-img-1 {
+    top: 3400px;
+  }
+  .bg-img-2 {
+    top: 3720px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  #hero-section .hero-container {
+    gap: 50px;
+  }
+  #hero-section .hero-container h1 {
+    font-size: 46px;
+  }
+  #progress-section .progress-container {
+    padding-right: 115px;
+  }
+  #progress-section .progress-container .blue-line {
+    bottom: 440px;
+  }
+  #progress-section .progress-container .info {
+    font-size: 20px;
+  }
+  #office-section .office-1 {
+    margin-right: 50px;
+  }
+  #investor-section .card-1 {
+    margin-right: 50px;
+  }
+  #investor-section .card-3 {
+    margin-right: 50px;
+  }
+  .bg-img-1 {
+    top: 3600px;
+  }
+  .bg-img-2 {
+    top: 4000px;
+  }
+}
+
+@media all and (max-width: 592px) {
+  #hero-section img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  #hero-section .hero-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 200px 1fr;
+        grid-template-rows: 200px 1fr;
+    gap: 20px;
+  }
+  #progress-section .progress-container .blue-line {
+    position: absolute;
+    left: 134px;
+    bottom: 0;
+  }
+  #progress-section .progress-container .year {
+    font-size: 20px;
+  }
+  #progress-section .progress-container .fifteen {
+    left: 25px;
+  }
+  #progress-section .progress-container .fifteen img {
+    bottom: 25px;
+  }
+  #progress-section .progress-container .sixteen {
+    left: 25px;
+    top: 180px;
+  }
+  #progress-section .progress-container .sixteen img {
+    bottom: 25px;
+  }
+  #progress-section .progress-container .seventeen {
+    left: 25px;
+    top: 250px;
+  }
+  #progress-section .progress-container .seventeen img {
+    bottom: 25px;
+  }
+  #progress-section .progress-container .nineteen {
+    left: 25px;
+    top: 335px;
+  }
+  #progress-section .progress-container .nineteen img {
+    bottom: 25px;
+  }
+  #progress-section .progress-container .nineteen .info {
+    bottom: 35px;
+  }
+  #progress-section .progress-container .twenty {
+    left: 25px;
+    top: 400px;
+  }
+  #progress-section .progress-container .twenty img {
+    bottom: 25px;
+  }
+  #progress-section .progress-container img {
+    position: absolute;
+    left: 70px;
+  }
+  #progress-section .progress-container .info {
+    left: 135px;
+    bottom: 25px;
+  }
+  #culture-section .culture-container {
+    gap: 20px;
+  }
+  #culture-section .btn {
+    left: 34%;
+  }
+  #office-section {
+    overflow: hidden;
+    padding-bottom: 50px;
+  }
+  #office-section .office-container .office-1 {
+    margin-right: 20px;
+  }
+  #office-section .office-container h2 {
+    font-size: 26px;
+  }
+  #office-section .office-container p {
+    font-size: 16px;
+  }
+  #investor-section .card-1 {
+    margin-right: 20px;
+  }
+  #investor-section .card-1 img {
+    left: 5%;
+    width: 90%;
+  }
+  #investor-section .card-3 {
+    margin-right: 20px;
+  }
+  #future-section .future-container .btn-light {
+    position: relative;
+    left: 2%;
+  }
+  #future-section .future-container .btn-outline-light {
+    position: relative;
+    margin-top: 20px;
+  }
+  .bg-img-1 {
+    top: 3700px;
+  }
+  .bg-img-2 {
+    top: 4100px;
+  }
+}
+
+@media all and (max-width: 419px) {
+  #hero-section img {
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    left: 0;
+  }
+  #hero-section .hero-container {
+    margin-top: 320px;
+    gap: 50px;
+  }
+  #hero-section .hero-container h1 {
+    font-size: 42px;
+  }
+  .titles {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #culture-section .culture-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+  }
+  #culture-section .sub-header {
+    font-size: 16px;
+  }
+  #culture-section .cta {
+    font-size: 16px;
+  }
+  #culture-section .btn {
+    left: 27%;
+  }
+  #progress-section .progress-container .blue-line {
+    left: 100px;
+  }
+  #progress-section .progress-container .year {
+    font-size: 16px;
+  }
+  #progress-section .progress-container .info {
+    font-size: 16px;
+  }
+  #progress-section .progress-container .fifteen {
+    top: 80px;
+  }
+  #progress-section .progress-container .sixteen {
+    top: 150px;
+  }
+  #progress-section .progress-container .seventeen {
+    top: 250px;
+  }
+  #progress-section .progress-container .nineteen {
+    top: 380px;
+  }
+  #progress-section .progress-container .twenty {
+    top: 450px;
+  }
+  #progress-section .progress-container img {
+    height: 55px;
+    width: 55px;
+    left: 50px;
+  }
+  #progress-section .progress-container .info {
+    left: 90px;
+    bottom: 10px;
+  }
+  #office-section .office-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 40px;
+  }
+  #office-section .office-container .office-1 {
+    width: 100%;
+  }
+  #office-section .office-container .office-2 {
+    width: 100%;
+  }
+  #investor-section .card {
+    width: 100%;
+  }
+  #investor-section .investor-row-1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  #investor-section .investor-row-2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 40px;
+  }
+  #future-section .future-container h1 {
+    top: 90px;
+    font-size: 36px;
+  }
+}
+
+@media all and (max-width: 335px) {
+  #hero-section .hero-container {
+    gap: 100px;
+  }
+  #culture-section .btn {
+    left: 20%;
+  }
+  #progress-section .progress-container .fifteen {
+    top: 50px;
+  }
+  #progress-section .progress-container .sixteen {
+    top: 100px;
+  }
+  #progress-section .progress-container .seventeen {
+    top: 150px;
+  }
+  #progress-section .progress-container .nineteen {
+    top: 230px;
+  }
+  #progress-section .progress-container .nineteen .info {
+    bottom: 0;
+  }
+  #progress-section .progress-container .twenty {
+    top: 300px;
+  }
+  #progress-section .progress-container .info {
+    bottom: 0;
+  }
+  .bg-img-1 {
+    top: 4600px;
+  }
+  .bg-img-2 {
+    top: 5100px;
   }
 }
 /*# sourceMappingURL=main.css.map */

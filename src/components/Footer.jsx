@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container">
+        <div className="container-lg">
           <div className="footer-container-1">
             <img src={require("../assets/sw-logo-full.png")} alt="" />
             <div className="link-container">
@@ -54,7 +54,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className="footer-container-2">
-          <div className="container">
+          <div className="container-lg">
             <a href="#" className="privacy">Privacy</a>
             <a href="#" className="terms">Terms</a>
             <span className="copyright">© 2020 Saleswhale, Inc. All rights reserved</span>
