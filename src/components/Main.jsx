@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import '../styles/main.css'
 
 class Main extends Component {
-  state = {}
   render() {
     return (
       <Fragment>
@@ -12,7 +11,7 @@ class Main extends Component {
             <div className="hero-container">
               <h1>
                 A future where AI and humans work hand in hand
-            </h1>
+              </h1>
               <div className="paragraph">
                 <p>At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>
                 <p>AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative, high-impact work that creates value and inspires. The result? Happier and more productive teams doing meaningful work.</p>
@@ -25,8 +24,8 @@ class Main extends Component {
           {/* Culture Section */}
 
           <section id="culture-section">
-            <h1 className="titles">Our Culture</h1>
-            <p className="sub-header">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
+            <h1 className="titles csTrigger">Our Culture</h1>
+            <p className="sub-header csTrigger">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.</p>
             <div className="culture-container">
               <div className="culture1">
                 <img src={require("../assets/you_glasses 4.png")} />
@@ -44,8 +43,8 @@ class Main extends Component {
                 <span>We believe the success of the company lies within our employees and we constantly challenge each other to learn and level up.</span>
               </div>
             </div>
-            <p className="cta">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
-            <button type="button" className="btn btn-primary">Join the team</button>
+            <p className="cta csTrigger2">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
+            <button type="button" className="btn btn-primary csTrigger2">Join the team</button>
           </section>
 
           {/* Progress Section */}
