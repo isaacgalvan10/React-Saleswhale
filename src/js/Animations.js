@@ -72,6 +72,112 @@ const Animations = () => {
         start: 'top 80%'
       }
     })
+
+    gsap.fromTo('#progress-section h1', {
+      y: -100,
+      opacity: 0
+    }, {
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#progress-section h1',
+        start: 'top 70%'
+      }
+    })
+
+    gsap.fromTo('.progress-container', {
+      opacity: 0
+    }, {
+      opacity: 1,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.progress-container',
+        toggleActions: 'play none none reverse',
+        start: 'top 60%'
+      }
+    })
+
+    gsap.fromTo('#office-section h1', {
+      y: -100,
+      opacity: 0
+    }, {
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#office-section h1',
+        start: 'top 70%'
+      }
+    })
+
+    ScrollTrigger.batch('.office-container div', {
+      onEnter: batch => gsap.fromTo(batch, { y: -100, opacity: 0 },
+        { y: 0, opacity: 1, stagger: .5 })
+    })
+
+    gsap.fromTo('#investor-section h1', {
+      y: -100,
+      opacity: 0
+    }, {
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '#investor-section h1',
+        start: 'top 70%'
+      }
+    })
+
+    ScrollTrigger.batch('#investor-section .card', {
+      onEnter: batch => gsap.fromTo(batch, { y: -100, opacity: 0 },
+        { y: 0, opacity: 1, stagger: .5 })
+    })
+
+    gsap.fromTo('.future-container', {
+      opacity: 0
+    }, {
+      opacity: 1,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '#future-section',
+        start: 'top 70%',
+        toggleActions: 'play none none reverse'
+      }
+    })
+
+    gsap.fromTo('.footer-container-1 img', {
+      y: -100,
+      opacity: 0
+    }, {
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: '.footer-container-1',
+        start: 'top 70%'
+      }
+    })
+
+    ScrollTrigger.batch('.link-container ul', {
+      onEnter: batch => gsap.fromTo(batch, { y: -100, opacity: 0 },
+        { y: 0, opacity: 1, stagger: .5 })
+    })
+
+    gsap.fromTo('.footer-container-2 .fcTrigger', {
+      y: -100,
+      opacity: 0
+    }, {
+      y: 0,
+      opacity: 1,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.footer-container-2',
+        start: 'top 70%'
+      }
+    })
+
+    ScrollTrigger.batch('.socialmedia a', {
+      onEnter: batch => gsap.fromTo(batch, { y: -100, opacity: 0 },
+        { y: 0, opacity: 1, stagger: .5 })
+    })
+
   })
   return (null);
 }

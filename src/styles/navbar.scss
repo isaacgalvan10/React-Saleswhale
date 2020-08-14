@@ -1,7 +1,18 @@
+
+.navbg {
+  background: white;
+  width: 100vw;
+  position: fixed;
+  height: 72px;
+  top: -5px;
+  z-index: 99;
+}
+
 nav {
   max-width: 1020px;
-  margin-left: 2rem;
+  margin: 0 auto;
   overflow-x: hidden;
+  z-index: 100;
 
   .nav-item {
     font-weight: 500;
@@ -12,10 +23,6 @@ nav {
     margin-right: 10px;
   }
 
-  .navbar-brand {
-    // margin-right: 7rem;
-  }
-
   .navbar-brand.saleswhale {
     margin-left: 10px;
       font-weight: 600;
@@ -23,8 +30,6 @@ nav {
 
   .btn {
     border-radius: 20px;
-    // position: relative;
-    // right: -6.7rem;
   }
 }
 

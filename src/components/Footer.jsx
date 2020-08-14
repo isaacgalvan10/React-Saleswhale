@@ -55,9 +55,9 @@ class Footer extends Component {
         </div>
         <div className="footer-container-2">
           <div className="container-lg">
-            <a href="#" className="privacy">Privacy</a>
-            <a href="#" className="terms">Terms</a>
-            <span className="copyright">© 2020 Saleswhale, Inc. All rights reserved</span>
+            <a href="#" className="privacy fcTrigger">Privacy</a>
+            <a href="#" className="terms fcTrigger">Terms</a>
+            <span className="copyright fcTrigger">© 2020 Saleswhale, Inc. All rights reserved</span>
             <div className="socialmedia">
               <a href="" className="facebook"><img src={require("../assets/Vector.png")} /></a>
               <a href="" className="linkedin"><img src={require("../assets/Vector (1).png")} /></a>

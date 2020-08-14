@@ -1,7 +1,17 @@
+.navbg {
+  background: white;
+  width: 100vw;
+  position: fixed;
+  height: 72px;
+  top: -5px;
+  z-index: 99;
+}
+
 nav {
   max-width: 1020px;
-  margin-left: 2rem;
+  margin: 0 auto;
   overflow-x: hidden;
+  z-index: 100;
 }
 
 nav .nav-item {
