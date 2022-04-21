@@ -1,4 +1,4 @@
-#Saleswhale frontend challenge
+# Saleswhale frontend challenge
 
 Live link https://react-saleswhale-isaacg.netlify.app/
 
